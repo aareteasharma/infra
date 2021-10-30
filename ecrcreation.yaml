@@ -10,8 +10,7 @@ MyRepository:
           Effect: Allow
           Principal: 
             AWS: 
-              - "arn:aws:iam::123456789012:user/Bob"
-              - "arn:aws:iam::123456789012:user/Alice"
+              - "arn:aws:iam::836888456485:role/aws-reserved/sso.amazonaws.com/us-east-2/AWSReservedSSO_AdministratorAccess_ec3caf228609ad28"          
           Action: 
             - "ecr:GetDownloadUrlForLayer"
             - "ecr:BatchGetImage"
